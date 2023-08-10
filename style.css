@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(243, 243, 183);
+    text-align: center;
+    text-size-adjust: 30px;
+}
+.codigo{
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(4, 2, 107);
+}
+.titulo{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(9, 41, 146);
+}
+
+
+.frete{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(56, 214, 56);
+}
+
+
+.premium{
+    text-align: center;
+    color: rgb(37, 9, 161);
+}
+
+
+.gold{
+    text-align: center;
+    color: goldenrod;
+}
+
+
+.silver{
+    text-align: center;
+    color: slategray;
+}
+
+.pseudo{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(144, 144, 255);
+}
+
+.cod{
+    text-align: left;
+}
+
+.visu{
+    opacity: 0.7;
+}
+
+.code{
+    opacity: 0.9;
+}
+
+.resultado{
+    font-style: italic;
+    font-size: x-large;
+    color: rgb(10, 10, 59);
+}
+
+button:hover{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
