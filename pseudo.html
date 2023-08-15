@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,50 +11,59 @@
 <body class="pseudo">
     <a href="index.html"><button>JavaScript</button></a>
     <h2 class="titulo">Pseudocódigo</h2>
-<h4 class="cod">algoritmo "comerce"<br>
+<h4 class="codigo">algoritmo "comerce"<br>
 
-var<br>
-assinante:caracter<br>
-valor, desconto, pagar:real<br>
-inicio<br>
-escreval("Bem vindo ao E-comerce!")<br>
-escreva("Digite o valor do produto: R$")<br>
-leia(valor)<br>
-escreval("Digite a sua opção de assinante!")<br>
-escreval("1) Assinante Premium, ganha 20% de desconto e frete grátis;")<br>
-escreval("2) Assinante Gold, ganha 20% de desconto mas paga frete;")<br>
-escreval("3) Assinante Silver, ganha 10% de desconto mas paga frete;")<br>
-escreval("4) Não assinante, sem benefícios.")<br>
-leia(assinante)<br>
-<br>
-<br>
-se (assinante = "1") entao<br>
-desconto <- (valor * 0.20)<br>
-pagar <- valor - desconto<br>
-escreva("O valor do produto de assinante premium com todos os benefícios ficará R$",pagar)<br>
-fimse<br>
-<br>
-se (assinante = "2") entao<br>
-desconto <- (valor * 0.20)<br>
-pagar <- (valor - desconto) + 12<br>
-escreva("O valor do produto de assinante gold com todos os benefícios ficará R$",pagar)<br>
-fimse<br>
-<br>
-se (assinante = "3") entao<br>
-desconto <- (valor * 0.10)<br>
-pagar <- (valor - desconto) + 12<br>
-escreva("O valor do produto de assinante silver com todos os benefícios ficará R$",pagar)<br>
-fimse<br>
-<br>
-se (assinante = "4") entao<br>
-desconto <- valor + 12<br>
-escreva("O valor do produto não terá benefícios e ficará R$",desconto)<br>
-fimse<br>
-fimalgoritmo<br>
+    var<br>
+    //Declarar as variaveis<br>
+    <br>
+    assinante:caracter<br>
+    valor, desconto, pagar:real<br>
+    <br>
+    inicio<br>
+    //Código<br>
+    <br>
+    escreval("Bem vindo ao E-comerce!")<br>
+    escreva("Digite o valor do produto: R$")<br>
+    leia(valor)<br>
+    escreval("Digite a sua opção de assinante!")<br>
+    escreval("1) Assinante Premium, ganha 20% de desconto e frete grátis;")<br>
+    escreval("2) Assinante Gold, ganha 20% de desconto mas paga frete;")<br>
+    escreval("3) Assinante Silver, ganha 10% de desconto mas paga frete;")<br>
+    escreval("4) Não assinante, sem benefícios.")<br>
+    leia(assinante)<br>
+    <br>
+    //Calculos<br>
+    <br>
+    se (assinante = "1") entao<br>
+    desconto <- (valor * 0.20)<br>
+    pagar <- valor - desconto<br>
+    escreva("O valor do produto de assinante premium com todos os benefícios ficará R$",pagar)<br>
+    fimse<br>
+    <br>
+    se (assinante = "2") entao<br>
+    desconto <- (valor * 0.20)<br>
+    pagar <- (valor - desconto) + 12<br>
+    escreva("O valor do produto de assinante gold com todos os benefícios ficará R$",pagar)<br>
+    fimse<br>
+    <br>
+    se (assinante = "3") entao<br>
+    desconto <- (valor * 0.10)<br
+    pagar <- (valor - desconto) + 12<br>
+    escreva("O valor do produto de assinante silver com todos os benefícios ficará R$",pagar)<br>
+    fimse<br>
+    <br>
+    se (assinante = "4") entao<br>
+    desconto <- valor + 12<br>
+    escreva("O valor do produto não terá benefícios e ficará R$",desconto)<br>
+    fimse<br>
+    fimalgoritmo<br>
 </h4>
-<img src="visu.png" height="710px" class="visu"><br>
 <br>
 <br>
-
+<br>
+<h2 class="titulo">VisuAlg 2.5</h2>
+<img src="Capturar.PNG" height="710px" class="imagem"><br>
+<br>
+<br>
 </body>
 </html>
